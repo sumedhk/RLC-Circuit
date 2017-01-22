@@ -41,13 +41,13 @@ public class AnalogCircuit {
 
     @Override
     public String toString() {
-    String allres="";
+    String allres = "";
     
     for(int j=0; j<res.size();j++){
         if(res.size() == j+1){
-            allres= allres + (res.get(j).toString() );
+            allres = allres + (res.get(j).toString() );
         }else{
-            allres= allres + (res.get(j).toString() + "\n");
+            allres = allres + (res.get(j).toString() + "\n");
         }
         
     }
